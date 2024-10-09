@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    bakckground-color: green;
+}
+
+.body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.left {
+    display: flex;
+}
