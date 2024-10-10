@@ -1,9 +1,39 @@
-.footer {
+footer {
     display: flex;
-    bakckground-color: green;
+    background-color: green;
+    justify-content: center;
 }
 
-.body {
+header {
+    background-color: red;
+}
+
+article {
+	display: flex;
+	background-color: #55AAFF;
+	border: 1px solid white;
+	padding: 1%;
+	padding-bottom: 20%;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+a {
+	display: flex;
+	border: 1px solid black;
+	justify-content: center;
+}
+
+body {
     height: 100vh;
     margin: 0;
     display: flex;
@@ -11,4 +41,19 @@
 }
 .left {
     display: flex;
+    background-color: yellow;
+    justify-content: flex-start;
+}
+.right {
+    display: flex;
+    background-color: purple;
+    justify-content: flex-end;
+}
+.aside {
+	display: flex;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
 }
